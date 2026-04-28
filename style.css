@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #ffd6e0, #d6f0ff);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #ffffffcc;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background: #a0c4ff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #89b4fa;
+}
+
+.hidden {
+  display: none;
+}
+
+#app {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  background: #ffc8dd;
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.task {
+  background: #ffffff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+}
